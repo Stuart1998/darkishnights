@@ -1,0 +1,14 @@
+{
+	"author" : "Stuart98, bgolus",
+	"build" : "69564",
+	"category" : [ "ui" ],
+	"context" : "client",
+	"date" : "2015/01/02",
+	"description" : "Makes nights a little darker.",
+	"display_name" : "Darkish Nights",
+	"enabled" : true,
+	"identifier" : "com.stuart98.darkishnights",
+	"priority" : 100,
+	"signature" : "not yet implemented",
+	"version" : "1.0"
+}
