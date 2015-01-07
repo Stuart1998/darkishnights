@@ -24,7 +24,7 @@
         0.5
       ],
       "spec": "/pa/terrain/metal/metal.json",
-      "temperature": [
+      "temperture": [
         0.2,
         1,
         1
@@ -54,34 +54,9 @@
       "proj": "BP_Bend",
       "rotation": 0.0,
       "scale": [
-        1.0,
-        1.0,
-        1.0
-      ],
-      "weight": 1.0,
-      "weight_hard": true,
-      "weight_scale": 1.0
-    },
-    {
-      "brush_spec": "/pa/terrain/metal/brushes/metal_weapon_platforms.json",
-      "fixed_orient": true,
-      "note": "specific brush placement",
-      "op": "BO_Add",
-      "planet_size_range": [
-        500,
-        null
-      ],
-      "position": [
-        0.0,
-        0.0,
-        1.0
-      ],
-      "proj": "BP_Bend",
-      "rotation": 0.0,
-      "scale": [
-        1.0,
-        1.0,
-        1.0
+        2.0,
+        2.0,
+        2.0
       ],
       "weight": 1.0,
       "weight_hard": true,
@@ -104,9 +79,9 @@
       "proj": "BP_Bend",
       "rotation": 0.0,
       "scale": [
-        1.0,
-        1.0,
-        1.0
+        2.0,
+        2.0,
+        2.0
       ],
       "weight": 1.0,
       "weight_hard": true,
@@ -272,31 +247,6 @@
         null
       ],
       "position": [
-        1.0,
-        0.0,
-        0.0
-      ],
-      "proj": "BP_LongitudePinch",
-      "rotation": 90,
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weight": 1.0,
-      "weight_hard": true,
-      "weight_scale": 1.0
-    },
-    {
-      "brush_spec": "/pa/terrain/metal/brushes/metal_trench_11.json",
-      "fixed_orient": true,
-      "note": "specific brush placement",
-      "op": "BO_Add",
-      "planet_size_range": [
-        700,
-        null
-      ],
-      "position": [
         -1.0,
         0.0,
         0.0
@@ -413,18 +363,18 @@
       "weight_scale": 1.0
     },
     {
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
+      "brush_spec": "/pa/terrain/metal/brushes/metal_crater_01.json",
       "fixed_orient": true,
       "note": "specific brush placement",
-      "op": "BO_Add",
+      "op": "BO_Subtract",
       "planet_size_range": [
-        700,
+        null,
         null
       ],
       "position": [
         1.0,
         0.0,
-        0.17
+        0.0
       ],
       "proj": "BP_LongitudePinch",
       "rotation": 90,
@@ -450,31 +400,6 @@
         -1.0,
         0.0,
         0.17
-      ],
-      "proj": "BP_LongitudePinch",
-      "rotation": 90,
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weight": 1.0,
-      "weight_hard": true,
-      "weight_scale": 1.0
-    },
-    {
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_12.json",
-      "fixed_orient": true,
-      "note": "specific brush placement",
-      "op": "BO_Add",
-      "planet_size_range": [
-        700,
-        null
-      ],
-      "position": [
-        1.0,
-        0.0,
-        -0.17
       ],
       "proj": "BP_LongitudePinch",
       "rotation": 90,
@@ -772,31 +697,6 @@
         349
       ],
       "position": [
-        1.0,
-        0.0,
-        0.0
-      ],
-      "proj": "BP_LongitudePinch",
-      "rotation": 90,
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "weight": 1.0,
-      "weight_hard": true,
-      "weight_scale": 1.0
-    },
-    {
-      "brush_spec": "/pa/terrain/metal/brushes/metal_structure_15.json",
-      "fixed_orient": true,
-      "note": "specific brush placement",
-      "op": "BO_Add",
-      "planet_size_range": [
-        200,
-        349
-      ],
-      "position": [
         -1.0,
         0.0,
         0.0
@@ -959,9 +859,5 @@
       ]
     }
   },
-  "name": "metal",
-  "radius_range": [
-    500,
-    1300
-  ]
+  "name": "metal_boss"
 }

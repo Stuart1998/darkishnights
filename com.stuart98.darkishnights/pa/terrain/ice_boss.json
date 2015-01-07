@@ -16,10 +16,10 @@
     {
       "elevation": [
         -1,
-        0.25,
+        -1,
         1
       ],
-      "spec": "/pa/terrain/sand/sand.json",
+      "spec": "/pa/terrain/ice/ice_boss.json",
       "temperature": [
         -1.0,
         1,
@@ -27,44 +27,44 @@
       ],
       "water_distance": [
         null,
-        20,
-        1
+        null,
+        0
       ]
     },
     {
       "elevation": [
-        0.2,
-        null,
-        0.2
-      ],
-      "spec": "/pa/terrain/desert/desert.json",
-      "temperature": [
-        -1,
-        1,
-        2
-      ],
-      "water_distance": [
-        150,
-        null,
-        1
-      ]
-    },
-    {
-      "elevation": [
-        0.4,
-        1,
+        -0.6,
+        0.6,
         3
       ],
-      "spec": "/pa/terrain/mountain/mountain.json",
+      "spec": "/pa/terrain/lava/lava.json",
       "temperature": [
-        -1,
-        1,
+        -0.2,
+        0.2,
         1
       ],
       "water_distance": [
         null,
         null,
         0
+      ]
+    },
+    {
+      "elevation": [
+        -0.1,
+        0.1,
+        1
+      ],
+      "spec": "/pa/terrain/mountain/mountain.json",
+      "temperature": [
+        -0.1,
+        0.1,
+        1
+      ],
+      "water_distance": [
+        null,
+        null,
+        1
       ]
     }
   ],
@@ -113,7 +113,7 @@
       ]
     }
   },
-  "name": "desert",
+  "name": "ice_boss",
   "water": {
     "shader": "planet_liquid_transparent",
     "textures": {

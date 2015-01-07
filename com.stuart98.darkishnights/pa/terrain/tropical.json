@@ -20,7 +20,7 @@
         1
       ],
       "spec": "/pa/terrain/sand/sand.json",
-      "temperture": [
+      "temperature": [
         0.0,
         1,
         1
@@ -38,7 +38,7 @@
         1
       ],
       "spec": "/pa/terrain/jungle/jungle.json",
-      "temperture": [
+      "temperature": [
         0.2,
         1,
         1
@@ -56,7 +56,7 @@
         0
       ],
       "spec": "/pa/terrain/ice/ice.json",
-      "temperture": [
+      "temperature": [
         -1,
         -0.5,
         3
@@ -74,7 +74,7 @@
         2.5
       ],
       "spec": "/pa/terrain/mountain/mountain.json",
-      "temperture": [
+      "temperature": [
         -1,
         1,
         0.5
@@ -92,7 +92,7 @@
         0.5
       ],
       "spec": "/pa/terrain/grass/grass.json",
-      "temperture": [
+      "temperature": [
         -0.7,
         0.8,
         1

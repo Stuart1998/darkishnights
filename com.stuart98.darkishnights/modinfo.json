@@ -3,12 +3,12 @@
 	"build" : "76557",
 	"category" : [ "ui" ],
 	"context" : "client",
-	"date" : "2015/01/02",
+	"date" : "2015/01/06",
 	"description" : "Makes nights a little darker.",
 	"display_name" : "Darkish Nights",
 	"enabled" : true,
 	"identifier" : "com.stuart98.darkishnights",
 	"priority" : 100,
 	"signature" : "not yet implemented",
-	"version" : "1.1"
+	"version" : "1.2"
 }
